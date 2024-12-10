@@ -5,7 +5,7 @@ export default function HomeScreen() {
   return (
     <View style={styles.container}>
       <Pressable>
-        <Text>Home</Text>
+        <Link href="/(home)/">Home</Link>
       </Pressable>
       <Link href="/details">View details</Link>
       <Link href="/about">About</Link>
