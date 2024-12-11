@@ -9,8 +9,9 @@ export default function HomeScreen() {
       </Pressable>
       <Link href="/details">View details</Link>
       <Link href="/about">About</Link>
+      <Link href="/user/[id]">View User</Link>
     </View>
-  );
+  ); 
 }
 
 const styles = StyleSheet.create({
