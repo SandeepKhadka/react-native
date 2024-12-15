@@ -5,8 +5,7 @@ export default function HomeIndex() {
   return (
     <View>
       <Text>Welcome to the Home Page!</Text>
-      {/* <Link href="/(home)/details">Go to Details</Link> */}
-      router.push("./details", {relativeToDirectory: true})
+      <Link href="/(home)/details">Go to Details</Link>
     </View>
   );
 }
