@@ -4,10 +4,10 @@ import { View, Text, StyleSheet, Pressable } from "react-native";
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <Link href="/details">View details</Link>
+      {/* <Link href="/details">View details</Link>
       <Link href="/about">About</Link>
       <Link href="/about">About</Link>
-      <Link href="/about">About</Link>
+      <Link href="/about">About</Link> */}
     </View>
   );
 }
