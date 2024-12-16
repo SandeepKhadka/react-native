@@ -1,12 +1,20 @@
 import { Stack } from "expo-router";
-import { View } from "react-native";
+import { StyleSheet, View } from "react-native";
 import Navbar from "./components/Navbar";
 
 export default function RootLayout() {
   return (
-    <View>
+    <View style={styles.container}>
+      <View>
+        <Stack screenOptions={{ headerShown: false }} />
+      </View>
       <Navbar />
-      <Stack screenOptions={{ headerShown: false }} />
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex : 1,
+  },
+});
